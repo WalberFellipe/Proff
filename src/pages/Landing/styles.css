@@ -1,0 +1,109 @@
+/* SMALL DEVICES */
+#page-home {
+  background-color: #303841;
+}
+
+#page-home .side-bar {
+  width: 100%;
+  float: left;
+  align-items: center;
+}
+
+#page-home .side-bar input {
+  flex-direction: column;
+  width: 40%;
+  margin-top: 0px;
+  margin-left: 30px;
+  background-color: #36404a;
+  font-size: 2px;
+  text-align: center;
+}
+#page-home .side-bar button {
+  background-color: #7269ef;
+}
+
+#page-home .side-bar h1 {
+  margin-top: 5px;
+  color: #a6b0cf;
+  font-size: 40px;
+}
+
+#page-home .content {
+  background-color: #262e35;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+}
+#page-home .content h1 {
+  color: #fff;
+}
+#page-home img {
+}
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) {
+  #page-home .side-bar .side-bar-content {
+    margin-top: 50%;
+    flex-direction: column;
+  }
+  #page-home .side-bar input {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #page-home .content {
+    height: 100%;
+    width: 100%;
+  }
+}
+/* LARGE DEVICES - WIDE SCREEN */
+
+@media screen and (min-width: 1152px) {
+  #page-home .side-bar .side-bar-content {
+    margin-top: 50%;
+    flex-direction: column;
+  }
+  #page-home .side-bar {
+    width: 30%;
+    height: 100%;
+    background: #303841;
+    position: fixed;
+  }
+  #page-home .side-bar input {
+    font-size: 1vw;
+    border: 1px solid #303841;
+    margin-left: 20%;
+    height: 60px;
+    width: 450px;
+    top: 40%;
+    color: #a6b0cf;
+  }
+  ::placeholder {
+    color: #a6b0cf;
+  }
+  #page-home .side-bar button {
+    background-color: #7269ef;
+
+    height: 60px;
+    width: 300px;
+    box-sizing: border-box;
+    line-height: 20px;
+    color: #fff;
+    margin-left: 30%;
+    font-size: 40px;
+    position: relative;
+    margin-top: 35px;
+    border-radius: 20px;
+  }
+
+  #page-home .content {
+    height: 100vh;
+    padding-left: 15%;
+    padding-top: 50px;
+  }
+}
+/*
+
+*/

@@ -1,0 +1,76 @@
+/* SMALL DEVICES */
+#page-home {
+  background-color: #303841;
+}
+
+#page-home .side-bar {
+  width: 100%;
+  float: left;
+  align-items: center;
+}
+
+#page-home .side-bar a {
+  color: #6159cb;
+}
+#page-home .side-bar button {
+  background-color: #7269ef;
+}
+
+#page-home .side-bar h1 {
+  margin-top: 5px;
+  color: #a6b0cf;
+  font-size: 40px;
+}
+
+#page-home .content {
+  background-color: #262e35;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+}
+#page-home .content h1 {
+  color: #fff;
+}
+#page-home img {
+  margin-left: 25%;
+}
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) {
+  #page-home {
+    color: #303841;
+  }
+  #page-home .side-bar .side-bar-content {
+    margin-top: 50%;
+    flex-direction: column;
+  }
+
+  #page-home .content {
+    height: 100%;
+    width: 85%;
+  }
+}
+/* LARGE DEVICES - WIDE SCREEN */
+
+@media screen and (min-width: 1152px) {
+  #page-home .side-bar .side-bar-content {
+    margin-top: 50%;
+    flex-direction: column;
+  }
+  #page-home .side-bar {
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background: #303841;
+  }
+
+  #page-home .content {
+    height: 100%;
+    padding-left: 15%;
+    padding-top: 50px;
+  }
+}
+/*
+
+*/
